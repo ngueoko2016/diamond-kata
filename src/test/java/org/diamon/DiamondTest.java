@@ -1,4 +1,4 @@
-package org.ngueoko.cdi;
+package org.diamon;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -9,12 +9,12 @@ public class DiamondTest {
 
     @BeforeEach
     void setUp(){
-        diamond=new Diamond("a");
+        diamond=new Diamond("A");
     }
 
     @Test
-    void printDiamond(){
-        System.out.println("A");
+    void testDiamondPrint(){
+        System.out.println(diamond.input);
     }
 
 }

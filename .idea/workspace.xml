@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d53458-c279-47cd-b573-236564cd88ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/diamon/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/ngueoko/cdi/DiamondTest.java" afterDir="false" />
+    <list default="true" id="81d53458-c279-47cd-b573-236564cd88ba" name="Changes" comment="first and class implementation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/diamon/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/diamon/Diamond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/diamon/DiamondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/diamon/DiamondTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +53,44 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.DiamondTest (1)">
+    <configuration name="DiamondTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diamond-kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.diamon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.diamon" />
+      <option name="MAIN_CLASS_NAME" value="org.diamon.DiamondTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiamondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diamond-kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ngueoko.cdi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ngueoko.cdi" />
+      <option name="MAIN_CLASS_NAME" value="org.ngueoko.cdi.DiamondTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DiamondTest (1)" />
+        <item itemvalue="JUnit.DiamondTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,8 +99,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685582193283</updated>
-      <workItem from="1685582194393" duration="1049000" />
+      <workItem from="1685582194393" duration="2123000" />
     </task>
+    <task id="LOCAL-00001" summary="First test write">
+      <created>1685583343647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685583343647</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first and class implementation">
+      <created>1685583976796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685583976796</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first and class implementation">
+      <created>1685584185143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685584185143</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +138,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First test write" />
+    <MESSAGE value="first and class implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="first and class implementation" />
   </component>
 </project>
