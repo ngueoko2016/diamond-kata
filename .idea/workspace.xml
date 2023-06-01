@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d53458-c279-47cd-b573-236564cd88ba" name="Changes" comment="Test fail for the new value">
+    <list default="true" id="81d53458-c279-47cd-b573-236564cd88ba" name="Changes" comment="All given test good">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/diamon/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/diamon/Diamond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/diamon/DiamondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/diamon/DiamondTest.java" afterDir="false" />
@@ -53,37 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.DiamondTest (1)">
-    <configuration name="DiamondTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diamond-kata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.diamon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.diamon" />
-      <option name="MAIN_CLASS_NAME" value="org.diamon.DiamondTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiamondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diamond-kata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ngueoko.cdi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ngueoko.cdi" />
-      <option name="MAIN_CLASS_NAME" value="org.ngueoko.cdi.DiamondTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DiamondTest.testBuildDiamondPrintAny">
     <configuration name="DiamondTest.testBuildDiamondPrintA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="diamond-kata" />
       <extension name="coverage">
@@ -100,11 +70,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DiamondTest.testBuildDiamondPrintAny" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diamond-kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.diamon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.diamon" />
+      <option name="MAIN_CLASS_NAME" value="org.diamon.DiamondTest" />
+      <option name="METHOD_NAME" value="testBuildDiamondPrintAny" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiamondTest.testBuildDiamondPrintB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diamond-kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.diamon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.diamon" />
+      <option name="MAIN_CLASS_NAME" value="org.diamon.DiamondTest" />
+      <option name="METHOD_NAME" value="testBuildDiamondPrintB" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiamondTest.testBuildDiamondPrintC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diamond-kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.diamon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.diamon" />
+      <option name="MAIN_CLASS_NAME" value="org.diamon.DiamondTest" />
+      <option name="METHOD_NAME" value="testBuildDiamondPrintC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiamondTest.testBuildDiamondPrintE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diamond-kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.diamon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.diamon" />
+      <option name="MAIN_CLASS_NAME" value="org.diamon.DiamondTest" />
+      <option name="METHOD_NAME" value="testBuildDiamondPrintE" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DiamondTest (1)" />
+        <item itemvalue="JUnit.DiamondTest.testBuildDiamondPrintAny" />
+        <item itemvalue="JUnit.DiamondTest.testBuildDiamondPrintE" />
+        <item itemvalue="JUnit.DiamondTest.testBuildDiamondPrintC" />
+        <item itemvalue="JUnit.DiamondTest.testBuildDiamondPrintB" />
         <item itemvalue="JUnit.DiamondTest.testBuildDiamondPrintA" />
-        <item itemvalue="JUnit.DiamondTest" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685582193283</updated>
-      <workItem from="1685582194393" duration="6489000" />
+      <workItem from="1685582194393" duration="13329000" />
     </task>
     <task id="LOCAL-00001" summary="First test write">
       <created>1685583343647</created>
@@ -160,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685585564450</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="All given test good">
+      <created>1685588773538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685588773538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +225,7 @@
     <MESSAGE value="first and class implementation" />
     <MESSAGE value="first Test good" />
     <MESSAGE value="Test fail for the new value" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test fail for the new value" />
+    <MESSAGE value="All given test good" />
+    <option name="LAST_COMMIT_MESSAGE" value="All given test good" />
   </component>
 </project>
