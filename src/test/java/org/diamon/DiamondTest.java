@@ -3,7 +3,7 @@ package org.diamon;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class DiamondTest {
@@ -12,14 +12,29 @@ public class DiamondTest {
 
     @BeforeEach
     void setUp(){
-        diamond=new Diamond("B");
+        diamond=new Diamond();
     }
 
     @Test
-    void testBuildDiamondPrint(){
+    void testBuildDiamondPrintA(){
+        diamond.setInput("A");
         diamond.buildDiamondToPrint();
-        System.out.println(diamond.input);
-        assertTrue(diamond.output.equals("A"));
+        diamond.diamondPrint();
+       assertAll(()-> assertEquals(diamond.getOutput().size(),1));
+    }
+    @Test
+    void testBuildDiamondPrintB(){
+        diamond.setInput("B");
+        diamond.buildDiamondToPrint();
+        diamond.diamondPrint();
+        assertEquals(diamond.getOutput().size(),2);
+    }
+    @Test
+    void testBuildDiamondPrintC(){
+        diamond.setInput("C");
+        diamond.buildDiamondToPrint();
+        diamond.diamondPrint();
+        assertEquals(diamond.getOutput().size(),3);
     }
 
 }

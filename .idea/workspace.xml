@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d53458-c279-47cd-b573-236564cd88ba" name="Changes" comment="first Test good">
+    <list default="true" id="81d53458-c279-47cd-b573-236564cd88ba" name="Changes" comment="Test fail for the new value">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/diamon/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/diamon/Diamond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/diamon/DiamondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/diamon/DiamondTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,9 +84,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DiamondTest.testBuildDiamondPrintA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diamond-kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.diamon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.diamon" />
+      <option name="MAIN_CLASS_NAME" value="org.diamon.DiamondTest" />
+      <option name="METHOD_NAME" value="testBuildDiamondPrintA" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DiamondTest (1)" />
+        <item itemvalue="JUnit.DiamondTest.testBuildDiamondPrintA" />
         <item itemvalue="JUnit.DiamondTest" />
       </list>
     </recent_temporary>
@@ -97,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685582193283</updated>
-      <workItem from="1685582194393" duration="3317000" />
+      <workItem from="1685582194393" duration="6489000" />
     </task>
     <task id="LOCAL-00001" summary="First test write">
       <created>1685583343647</created>
@@ -134,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685585229578</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Test fail for the new value">
+      <created>1685585564450</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685585564450</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +181,7 @@
     <MESSAGE value="First test write" />
     <MESSAGE value="first and class implementation" />
     <MESSAGE value="first Test good" />
-    <option name="LAST_COMMIT_MESSAGE" value="first Test good" />
+    <MESSAGE value="Test fail for the new value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test fail for the new value" />
   </component>
 </project>
