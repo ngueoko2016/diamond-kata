@@ -1,6 +1,8 @@
 package org.diamon;
 
 import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Diamond {
     private int inputAlphabeticOrder;
@@ -12,58 +14,34 @@ public class Diamond {
     }
 
     public void buildDiamondToPrint(){
-        String line;
-        int currentCharOrder;
-        char  currentChar;
-        inputAlphabeticOrder=((int)input-(int)'A');
-
-        System.out.println(" inputAlphabeticOrder =" + inputAlphabeticOrder);
-        System.out.println(input+" =" + (int)input);
 
         for(int i=(int)input;i>=((int)'A');i--) {
-
-            currentChar=(char)i;
-            currentCharOrder = (i - (int) 'A');
-            System.out.println(" currentCharOrder =" + currentCharOrder);
-
-            line=spaceString(inputAlphabeticOrder-currentCharOrder)+currentChar;
-          /*  if(currentCharOrder==4)line+=spaceString(currentCharOrder+4)+currentChar;
-            if(currentCharOrder==3)line+=spaceString(currentCharOrder+3)+currentChar;*/
-            if(currentCharOrder>=2)line+=spaceString(currentCharOrder*2)+currentChar;
-            if(currentCharOrder==1)line+=spaceString(currentCharOrder)+currentChar;
-            output.add(line);
-
-
-            System.out.println(" LINE =" + line);
-
+            output.add(buildDiamondLine(input,i));
         }
-        System.out.println(" TABLE =" + output);
-       /* switch (input) {
-            case 'C' : { output.add("C   C");output.add(" B B"); output.add("  A"); break;}
-            case 'B' : { output.add("B B"); output.add(" A"); break;}
-            case 'A' : {output.add("A"); break;}
-            default:  ;
-
-        }*/
-        inputAlphabeticOrder+=1;
+        //System.out.println(" TABLE =" + output);
     }
+
+    public String buildDiamondLine(char input,int i){
+        String line;
+        int inerSpace;
+        int outerSpace;
+            inerSpace=((int)input - i );
+            outerSpace=(i - (int)'A')*2-1;
+        return        (outerSpace<=0)?
+                " ".repeat(inerSpace)+Character.valueOf((char)i)
+            :
+               " ".repeat(inerSpace)+Character.valueOf((char)i)+" ".repeat(outerSpace)+Character.valueOf((char)i);
+        }
 
     public void diamondPrint(){
+        Collections.reverse(output);
+        output.stream().collect(Collectors.toList()).forEach( System.out::println);
 
-        for(int i=output.size()-1;i>0;i--) {
-            System.out.println(output.get(i));
-        }
+        Collections.reverse(output);
+        output.stream().skip(1).forEach( System.out::println);
 
-        for(int i=0;i<output.size();i++) {
-            System.out.println(output.get(i));
-        }
     }
 
-    private String spaceString(int number){
-        String formatLine="";
-        for(int i=0;i<number;i++)formatLine+=" ";
-        return formatLine;
-    }
 
     public Character getInput() {
         return input;
