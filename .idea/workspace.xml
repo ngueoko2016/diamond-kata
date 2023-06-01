@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d53458-c279-47cd-b573-236564cd88ba" name="Changes" comment="first and class implementation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/diamon/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/diamon/Diamond.java" afterDir="false" />
+    <list default="true" id="81d53458-c279-47cd-b573-236564cd88ba" name="Changes" comment="first Test good">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/diamon/DiamondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/diamon/DiamondTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685582193283</updated>
-      <workItem from="1685582194393" duration="2952000" />
+      <workItem from="1685582194393" duration="3317000" />
     </task>
     <task id="LOCAL-00001" summary="First test write">
       <created>1685583343647</created>
@@ -129,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685584453399</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first Test good">
+      <created>1685585229578</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685585229578</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First test write" />
     <MESSAGE value="first and class implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="first and class implementation" />
+    <MESSAGE value="first Test good" />
+    <option name="LAST_COMMIT_MESSAGE" value="first Test good" />
   </component>
 </project>

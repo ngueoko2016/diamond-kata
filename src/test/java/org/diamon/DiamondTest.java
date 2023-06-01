@@ -12,7 +12,7 @@ public class DiamondTest {
 
     @BeforeEach
     void setUp(){
-        diamond=new Diamond("A");
+        diamond=new Diamond("B");
     }
 
     @Test
